@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Self-Knowledge"
+  },
+  {
+    "id": 2,
+    "name": "Relationships"
+  },
+  {
+    "id": 3,
+    "name": "Sociability"
+  },
+  {
+    "id": 4,
+    "name": "Work"
+  },
+  {
+    "id": 5,
+    "name": "Calm"
+  },
+  {
+    "id": 6,
+    "name": "Leisure"
+  }
+]
