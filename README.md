@@ -1,68 +1,62 @@
-# The Career Advisory - Your Trusted Career Companion
+# The Career Advisory - A Career Counseling Website
 
-[Live Site URL](https://the-career-advisory.web.app/)  
+## 📌 Project Overview
+The Career Advisory is a full-stack career counseling platform designed to provide personalized career advice, guidance, and resources to users. Built with React, Firebase, and modern web technologies, The Career Advisory offers a seamless and intuitive experience for users seeking to make informed decisions about their professional futures. The platform is fully responsive, secure, and user-friendly.
 
-Welcome to **The Career Advisory**, a comprehensive career counseling platform designed to empower individuals in achieving their professional aspirations. Whether you're exploring your career options, looking for skill-building resources, or seeking expert guidance, **The Career Advisory** provides all the tools and services you need to take confident steps toward your future.
+## 🖼 Screenshots
+### Homepage
+![Homepage Screenshot](https://i.ibb.co/fGqPYD8P/career-advisory-home.png)
 
----
+### Article Page
+![Article Screenshot](https://i.ibb.co/XrBprFTy/career-article.png)
 
-## 🌟 Features and Characteristics
+### Service Details Page
+![Service Details Screenshot](https://i.ibb.co/vvzzNsYh/career-service-Details.png)
 
-### 1. **Dynamic Service Pages**  
-Each service comes with a dedicated page, offering detailed information about:  
-- Service Name  
-- Counselor Details  
-- Duration of the Service  
-- Pricing and Availability  
-- Client Testimonials  
-- Ratings and User Feedback  
+## 🛠 Technologies Used
+- **Frontend**: React.js, Tailwind CSS, React Router
+- **Authentication**: Firebase Authentication
+- **State Management**: Context API
+- **Notifications**: Toast Notifications
+- **Deployment**: Firebase
 
-This ensures that users have all the necessary information to make informed decisions.  
+## ✨ Core Features
+- **For All Users:**
+  - Browse career counseling services
+  - View service details, pricing, and counselor information
+  - Read Articles provided by the career advisory
+  - Update User Information
+- **Responsive UI:** Fully optimized for mobile, tablet, and desktop
+- **Protected Routes:** Users remain logged in after a page refresh
+- **Environment Variables:** Secure handling of API keys and credentials
 
----
+## 📦 Dependencies
+### Frontend:
+- React.js
+- React Router
+- Firebase
+- Tailwind CSS
+- Toastify
 
-### 2. **Interactive Feedback Section**  
-Engage with the platform through a **Comment/Feedback Section** on the service details page.  
-- Users can share their comments or provide feedback about the services.  
-- Submitted feedback is displayed dynamically on the same page, fostering an interactive and engaging user experience.  
+## 🚀 How to Run Locally
+### Prerequisites:
+- Firebase project configured
 
----
-
-### 3. **Modern Design and Aesthetic**  
-The website has a clean and professional UI design:  
-- **Tailwind CSS** and **DaisyUI** power the responsive and visually appealing layout.  
-- Colors and typography are chosen to ensure readability and an inviting atmosphere for users.  
-- Smooth hover effects and shadows enhance the interactivity of buttons and cards.  
-
----
-
-### 4. **Responsive and Accessible**  
-The platform is fully responsive, ensuring a seamless experience across devices:  
-- Mobile-friendly layout for easy navigation on phones and tablets.  
-- Accessibility considerations, including readable fonts and contrast, ensuring inclusivity for all users.  
-
----
-
-### 5. **Navigation and User-Friendly Routing**  
-With the integration of **React Router**, users can easily navigate between pages:  
-- Direct links to explore individual services or view all services.  
-- A smooth and intuitive user experience for browsing, selecting, and discovering career resources.  
-
----
-
-## 🚀 Technologies Used
-
-### **Frontend**  
-- **React.js**: Provides a component-based structure for building reusable, dynamic UI elements.  
-- **Tailwind CSS & DaisyUI**: Accelerate the styling process and deliver a modern, responsive design.  
-
-### **Routing**  
-- **React Router**: Enables client-side routing and seamless navigation between pages.  
-
-### **State Management**  
-- State is managed efficiently to handle dynamic user feedback and page content.  
-
-### **Responsive Web Design**  
-- The site is designed to adapt to all screen sizes, ensuring usability on mobile, tablet, and desktop devices.  
-
----
+### Steps:
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/MDTAHSINURRAHMAN/The-Career-Advisory.git
+   cd the-career-advisory
+2. **Set up environment variables**
+   ```sh
+   FIREBASE_API_KEY=your_firebase_api_key
+   FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+3. **Install dependencies:**
+   ```sh
+    cd client
+    npm install
+1. **Run the project:**
+   ```sh
+   # For frontend
+    cd client
+    npm start
