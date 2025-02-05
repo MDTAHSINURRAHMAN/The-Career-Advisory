@@ -13,6 +13,9 @@ The Career Advisory is a full-stack career counseling platform designed to provi
 ### Service Details Page
 ![Service Details Screenshot](https://i.ibb.co/vvzzNsYh/career-service-Details.png)
 
+## 🔗 Live Demo
+[🌐 View Live Project: ](#) (https://the-career-advisory.web.app/)
+
 ## 🛠 Technologies Used
 - **Frontend**: React.js, Tailwind CSS, React Router
 - **Authentication**: Firebase Authentication
